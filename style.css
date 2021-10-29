@@ -260,6 +260,51 @@ section .title::after{
     background: none;
 }
 
+/* education section styling */
+.education .title::after{
+    content: "College and school";
+}
+.education .education-content .right{
+    width: 85%;
+}
+.education .education-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.education .education-content .right{
+    width: 55%;
+}
+.education .education-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.education .education-content .right .text span{
+    color: crimson;
+}
+.education .education-content .right p{
+    text-align: justify;
+}
+.education .education-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.education .education-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
+
 /* services section styling */
 .services, .teams{
     color:#fff;
