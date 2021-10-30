@@ -262,7 +262,7 @@ section .title::after{
 
 /* education section styling */
 .education .title::after{
-    content: "College and school";
+    content: "College and School";
 }
 .education .education-content .right{
     width: 85%;
@@ -302,6 +302,13 @@ section .title::after{
 .education .education-content .right a:hover{
     color: crimson;
     background: none;
+
+.education .education-content .align left {
+        float: left;
+    }
+.education .education-content .alignright {
+        float: right;
+    }
 }
 
 
