@@ -410,20 +410,53 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
-    width: 90%;
+.skills-content .right .Cpp::before{
+    width: 75%;
 }
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
+.skills-content .right .Java::before{
     width: 80%;
 }
-.skills-content .right .php::before{
+.skills-content .right .Python::before{
+    width: 55%;
+}
+.skills-content .right .MATLAB::before{
+    width: 70%;
+}
+.skills-content .right .VSCode::before{
+    width: 80%;
+}
+.skills-content .right .Eclipse::before{
+    width: 70%;
+}
+.skills-content .right .Git::before{
+    width: 65%;
+}
+.skills-content .right .GitHub::before{
+    width: 55%;
+}
+.skills-content .right .WordPress::before{
+    width: 35%;
+}    
+.skills-content .right .Simulink::before{
+    width: 65%;
+}
+.skills-content .right .OrCAD::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
-    width: 70%;
+.skills-content .right .COMSOL::before{
+    width: 30%;
+}
+.skills-content .right .EDATools::before{
+    width: 35%;
+}
+.skills-content .right .MicrosoftWindows::before{
+    width: 85%;
+}
+.skills-content .right .Linux::before{
+    width: 65%;
+}
+.skills-content .right .MySQL::before{
+    width: 65%;
 }
 
 /* teams section styling */
