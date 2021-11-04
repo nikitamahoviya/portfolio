@@ -458,7 +458,15 @@ section .title::after{
 .skills-content .right .MySQL::before{
     width: 65%;
 }
-
+.skills-content .right .EnglishSpeakingProficiency,::before{
+    width: 85%;
+}
+.skills-content .right .CreativeWriting::before{
+    width: 90%;
+}
+.skills-content .right .GraphicDesigningCanva::before{
+    width: 65%;
+}
 /* teams section styling */
 .teams .title::after{
     content: "who with me";
