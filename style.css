@@ -35,12 +35,13 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .education, .skills, .internships, .projects, .extra-curricular, .contact footer{
+.about, .education, .skills, .interests, .internships, .projects, .extra-curricular, .contact footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .education .education-content,
 .skills .skills-content,
+.interests .interests-content,
 .internships .internships-content,
 .projects .projects-content,
 .extra-curricular .extra-curricular-content,
@@ -317,9 +318,9 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "What Suits Me";
 }
-.services .serv-content .card{
+.services .interests-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -328,24 +329,24 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.services .interests-content .card:hover{
     background: crimson;
 }
-.services .serv-content .card .box{
+.services .interests-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.services .interests-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.services .interests-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.services .interests-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.services .interests-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -708,7 +709,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .services .interests-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -732,7 +733,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .services .interests-content .card{
         width: 100%;
     }
 }
