@@ -305,7 +305,50 @@ section .title::after{
     background: none;
 }
 
-
+/* internships section styling */
+.internships .title::after{
+    content: "Work Experience";
+ }
+ .internships .internships-content .right{
+    width: 85%;
+ }
+ .internships .internships-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+ }
+ .internships .internships-content .right{
+    width: 55%;
+ }
+ .internships .internships-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+ }
+ .internships .internships-content .right .text span{
+    color: crimson;
+ }
+ .internships .internships-content .right p{
+    text-align: justify;
+ }
+ .internships .internships-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+ }
+ .internships .internships-content .right a:hover{
+    color: crimson;
+    background: none;
+ }
+ 
 /* services section styling */
 .services, .teams{
     color:#fff;
