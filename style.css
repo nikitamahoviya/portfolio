@@ -394,21 +394,21 @@ section .title::after{
  }
 
 
-/* services section styling */
-.services, .teams{
+/* interests section styling */
+.interests, .teams{
     color:#fff;
     background: #111;
-}
-.services .title::before,
-.teams .title::before{
+ }
+ .interests .title::before,
+ .teams .title::before{
     background: #fff;
-}
-.services .title::after,
-.teams .title::after{
+ }
+ .interests .title::after,
+ .teams .title::after{
     background: #111;
     content: "What Suits Me";
-}
-.services .interests-content .card{
+ }
+ .interests .interests-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -416,29 +416,29 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-.services .interests-content .card:hover{
+ }
+ .interests .interests-content .card:hover{
     background: crimson;
-}
-.services .interests-content .card .box{
+ }
+ .interests .interests-content .card .box{
     transition: all 0.3s ease;
-}
-.services .interests-content .card:hover .box{
+ }
+ .interests .interests-content .card:hover .box{
     transform: scale(1.05);
-}
-.services .interests-content .card i{
+ }
+ .interests .interests-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
-}
-.services .interests-content .card:hover i{
+ }
+ .interests .interests-content .card:hover i{
     color: #fff;
-}
-.services .interests-content .card .text{
+ }
+ .interests .interests-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
+ } 
 
 /* skills section styling */
 
@@ -619,7 +619,53 @@ section .title::after{
     background: crimson!important;
 }
 
-/* contact section styling */
+/* extracurricular section styling */
+.extracurricular, .teams{
+    color:#fff;
+    background: #111;
+ }
+ .extracurricular .title::before,
+ .teams .title::before{
+    background: #fff;
+ }
+ .extracurricular .title::after,
+ .teams .title::after{
+    background: #111;
+    content: "What Suits Me";
+ }
+ .extracurricular .extracurricular-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ .extracurricular .extracurricular-content .card:hover{
+    background: crimson;
+ }
+ .extracurricular .extracurricular-content .card .box{
+    transition: all 0.3s ease;
+ }
+ .extracurricular .extracurricular-content .card:hover .box{
+    transform: scale(1.05);
+ }
+ .extracurricular .extracurricular-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+ }
+ .extracurricular .extracurricular-content .card:hover i{
+    color: #fff;
+ }
+ .extracurricular .extracurricular-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+ }
+  
+ /* contact section styling */
 .contact .title::after{
     content: "get in touch";
 }
