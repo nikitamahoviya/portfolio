@@ -511,6 +511,9 @@ section .title::after{
 .skills-content .right .MATLAB::before{
     width: 70%;
 }
+.skills-content .right .AssemblyLanguage::before{
+    width: 70%;
+}
 .skills-content .right .VSCode::before{
     width: 80%;
 }
@@ -525,7 +528,10 @@ section .title::after{
 }
 .skills-content .right .WordPress::before{
     width: 35%;
-}    
+}   
+.skills-content .right .GoogleCloudPlatform::before{
+    width: 30%;
+}
 .skills-content .right .Simulink::before{
     width: 65%;
 }
