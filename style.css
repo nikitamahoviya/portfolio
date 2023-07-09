@@ -396,7 +396,7 @@ section .title::after{
 
 /* masters' dissertation section styling */
 .mastersdissertation .title::after{
-    content: "Masters' Dissertation ";
+    content: "M.Tech Thesis";
  }
  .mastersdissertation  .mastersdissertation-content .right{
     width: 85%;
