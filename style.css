@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .education, .skills, .interests, .internships, .projects, .masters-dissertation, .extra-curricular, .contact footer{
+.about, .education, .skills, .interests, .internships, .projects, .masters-dissertation, .publication, .extra-curricular, .contact footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -45,6 +45,7 @@ section{
 .internships .internships-content,
 .projects .projects-content,
 .mastersdissertation .mastersdissertation-content
+.publication .publication-content
 .extra-curricular .extra-curricular-content,
 .contact .contact-content{
     display: flex;
@@ -434,6 +435,50 @@ section .title::after{
     transition: all 0.3s ease;
  }
  .mastersdissertation  .mastersdissertation-content .right a:hover{
+    color: crimson;
+    background: none;
+ }
+
+ /* publication section styling */
+.publication .title::after{
+    content: "Published Works";
+ }
+ .publication  .publication-content .right{
+    width: 85%;
+ }
+ .publication  .publication-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+ }
+ .publication .publication-content .right{
+    width: 55%;
+ }
+ .publication .publication-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+ }
+ .publication  .publication-content .right .text span{
+    color: crimson;
+ }
+ .publication  .publication-content .right p{
+    text-align: justify;
+ }
+ .publication .publication-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+ }
+ .publication  .publication-content .right a:hover{
     color: crimson;
     background: none;
  }
